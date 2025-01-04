@@ -10,9 +10,9 @@ export default async function AuthLayout({
         <>
             <Header />
             <Sidebar />
-            <div id="main-content" className="p-4 transition-all lg:ml-[260px] mt-[60px]">
+            <main id="main-content" className="p-4 transition-all lg:ml-[260px] mt-[60px]">
                 {children}
-            </div>
+            </main>
         </>
     )
 }
